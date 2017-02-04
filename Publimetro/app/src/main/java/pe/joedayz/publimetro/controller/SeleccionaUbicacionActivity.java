@@ -67,7 +67,7 @@ public class SeleccionaUbicacionActivity extends Activity {
 
         cboCiudad.setAdapter(adapter);
 
-        cboDistrito.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        cboCiudad.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
 
