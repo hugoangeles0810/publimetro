@@ -56,6 +56,7 @@ public class EstablecimientoListAdapter extends BaseAdapter {
         if (inflater == null)
             inflater = (LayoutInflater) activity
                     .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
         if (convertView == null)
             convertView = inflater.inflate(R.layout.list_item_publiguia, null);
 

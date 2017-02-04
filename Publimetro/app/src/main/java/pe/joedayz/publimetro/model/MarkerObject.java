@@ -9,6 +9,7 @@ import java.io.Serializable;
 /**
  * Created by josediaz on 2/17/16.
  */
+
 public class MarkerObject implements Serializable {
 
     private Establecimiento establecimiento;
