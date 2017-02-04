@@ -354,7 +354,7 @@ public class DashboardActivity extends FragmentActivity implements ActionBar.OnN
         return super.onMenuOpened(featureId, menu);
     }
 
-    /*Menu*/
+    /** Inicio Menu del Action Bar **/
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -406,4 +406,5 @@ public class DashboardActivity extends FragmentActivity implements ActionBar.OnN
     }
 
 
+    /** Fin del menu del actionbar **/
 }
