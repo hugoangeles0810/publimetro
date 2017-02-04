@@ -359,7 +359,7 @@ public class DashboardActivity extends FragmentActivity implements ActionBar.OnN
         return super.onMenuOpened(featureId, menu);
     }
 
-    /*Menu*/
+    /** Inicio Menu del Action Bar **/
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -420,6 +420,7 @@ public class DashboardActivity extends FragmentActivity implements ActionBar.OnN
     }
 
 
+<<<<<<< HEAD
     //Busqueda por texto
 
     @Override
@@ -444,4 +445,7 @@ public class DashboardActivity extends FragmentActivity implements ActionBar.OnN
 
     }
 
+=======
+    /** Fin del menu del actionbar **/
+>>>>>>> 1.7-ofertas-establecimiento
 }
